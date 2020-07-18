@@ -1,0 +1,372 @@
+/*font-family: 'Titillium Web', sans-serif;*/
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+/*header start*/
+header{
+	background-color: #87509c;
+	padding: 15px 0;
+}
+.menu ul li a{
+	  padding: 0 30px !important;	
+	  font-size: 16px;
+	  font-weight: 400;
+	  color:#ffffff !important;
+	  margin-top:15px;
+	  transition: .3s;
+}
+.menu ul li:last-child a{
+     padding-right: 0 !important;
+}
+.menu ul li a:hover {
+     color: #643a79 !important;
+}
+.menu ul li a.active-link{
+	background-color: #643a79 !important;
+}
+/*header end*/
+/*banner section start*/
+.banner{
+	background-color: #87509c;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.b_content{}
+.b_content h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	color:#f7f3ea;
+}
+.btn-content{
+	margin-top:40px;
+	background-color: #eb7d4b;
+	width:290px;
+	height: 70px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color:#fff;
+}
+
+/*banner section end*/
+/*service section start*/
+.service{
+	background-color: #17c2a4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.s_title{
+	margin-bottom: 60px;
+}
+.s_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#fff;
+	letter-spacing: 1px;
+
+}
+
+.s_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#fff;
+	letter-spacing: 3px;
+	
+}
+.single-item img{
+	margin-bottom: 30px;
+}
+.single-item h3{
+	font-size: 24px;
+	font-weight: 700;
+	color:#fff;
+}
+.single-item p{
+	font-size: 16px;
+	font-weight: 300;
+	color:#fff;
+	letter-spacing: 2px;
+}
+/*service section end*/
+/*team section start*/
+.team{
+	background-color: #e7f1f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.t_title{
+	margin-bottom: 60px;
+}
+.t_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color:#3c4761;
+	letter-spacing: 4px;
+
+}
+
+.t_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#3c4761;
+	letter-spacing: 2px;
+	
+}
+
+.single-member img{
+	margin-bottom: 30px;
+}
+.single-member h3{
+    font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color:#27283d;
+	/*letter-spacing: 4px;*/
+  
+  
+}
+.single-member h5{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#30bae7;
+	margin-bottom: 20px;
+}
+.single-member p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color:#3c4761;
+}
+
+/*team section end*/
+/*skill section start*/
+.skill{
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.skill_title{
+	margin-bottom: 60px;
+}
+.skill_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#3c4761;
+	letter-spacing: 4px;
+
+}
+
+.skill_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#3c4761;
+	letter-spacing: 3px;
+	
+}
+
+.single-skill{
+	position: relative;
+}
+.single-skill img{
+	margin-bottom: 30px;
+}
+.single-skill span{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+.single-skill h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color:#3c4761
+}
+/*skill section end*/
+/*portfolio section start*/
+.portfolio{
+	background-color: #ffdd99;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.p_title{
+	margin-bottom: 60px;
+}
+.p_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#393939;
+	letter-spacing: 4px;
+
+}
+
+.p_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#393939;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	
+}
+.port-item{
+	margin-bottom: 60px;
+}
+.port-item ul li{
+	background-color: #ebc985;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 3px 15px;
+	font-size: 18px;
+	font-weight: 400;
+	color:#393939;
+
+
+}
+.port-item ul li.active-item{
+	background-color:#fff;
+}
+.port-gallery img{
+	margin-bottom: 20px;
+}
+.port-gallery p{
+	text-align: center;
+	text-transform: uppercase;
+}
+.btn-load{
+	margin-top:40px;
+	background-color: #17c2a4;
+	width:290px;
+	height: 70px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color:#fff;
+}
+/*portfolio section end*/
+/*about section start*/
+.about{
+    background-color: #d74680;
+    padding-top: 100px;
+	padding-bottom: 100px;
+}
+.a_title{
+	margin-bottom: 60px;
+}
+.a_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#fff;
+	letter-spacing: 1px;
+
+}
+
+.a_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#fff;
+	letter-spacing: 1px;
+	
+}
+.single_t{
+	margin-bottom: 120px;
+	margin-right: 40px;
+}
+.t_text p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	color:#fff;
+	/*letter-spacing: 1px;*/
+}
+.t_text h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color:#fff;
+}
+.t_text h6{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#ffdd99;
+}
+/*about section end*/
+/*contact section start*/
+.contact{
+	background-color: #3c5499;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.c_title{
+	margin-bottom: 60px;
+}
+.c_h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#fff;
+	letter-spacing: 1px;
+}
+.c_p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#fff;
+	/*letter-spacing: 1px;*/
+}
+.contact-form input{
+	width: 100%;
+	height: 50px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background: #273a71;
+	border: none;
+	
+}
+.contact-form textarea{
+	margin-top: 20px !important;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	background: #273a71;
+	
+	border: none;
+}
+.btn-contact{
+	margin-top:40px;
+	background-color: #30bae7;
+	width:290px;
+	height: 70px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color:#fff;
+}
+
+/*contact section end*/
+
+/*footer section start*/
+.footer{
+	background-color: #344b8e;
+}
+.footer-item ul li{
+	padding: 0 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color:#fff;
+}
+/*footer section end*/

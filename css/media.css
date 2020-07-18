@@ -1,0 +1,245 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+
+ }
+ /*header end*/
+ /*banner start*/
+ .banner{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b_content h1{
+	
+	font-size: 20px;
+
+}
+ /*banner end*/
+  /*service section start */
+  .service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.s_h1 {
+    font-size: 32px;
+}
+/*service section end*/
+ /*team section start*/
+ .team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.t_h1 {
+    font-size: 30px;
+}
+ /*team section end*/
+ /*skill section start*/
+ .skill {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skill_h1 {
+    font-size: 30px;
+}
+.single-skill img{
+	margin-bottom: 10px;
+}
+ /*skill section end*/
+ /*portfolio section start*/
+ .portfolio{
+ 	padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .p_h1 {
+    font-size: 30px;
+}
+ .port-item ul li{
+	
+	padding: 3px 10px;
+}
+ /*portfolio section end*/
+ /*about section start*/
+ .about{
+ 	padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .a_h1 {
+    font-size: 30px;
+}
+ .a_title{
+	margin-bottom: 30px;
+}
+ .single_t{
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ 	margin-right: 0;
+ }
+ /*about section end*/
+  /*contact section start*/
+ .contact{
+ 	padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .c_h1 {
+    font-size: 30px;
+}
+ .contact-form input{
+	margin-bottom: 20px;
+	
+}
+.contact-form textarea{
+	margin-top: 0 !important;
+	
+}
+ .footer-item ul li{
+	font-size: 16px;
+}
+ /*contact section end*/
+  }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*banner section start */
+.banner{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+.b_content h1{
+	font-size: 22px;
+}
+/*banner section end*/
+/*service section start*/
+.service{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*service section end*/
+/*team section start*/
+.team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.t_h1{
+	font-size: 32px;
+}
+/*team section end*/
+/*skill section start*/
+.skill{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*skill section end*/
+/*portfolio section start*/
+.portfolio{
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*portfolio section end*/
+/*about section start*/
+ .about{
+ 	padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .a_title{
+	margin-bottom: 30px;
+}
+ .single_t{
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ 	margin-right: 0;
+ }
+ /*about section end*/
+ /*contact section start*/
+ .contact{
+ 	padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .contact-form input{
+	margin-bottom: 20px;
+	
+}
+.contact-form textarea{
+	margin-top: 0 !important;
+	
+}
+ .footer-item ul li{
+	font-size: 16px;
+}
+ /*contact section end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*banner start*/
+	.banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+   .b_content h1{
+	font-size: 32px;
+}
+/*banner end*/
+/*service section start*/
+.service{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*service section end*/
+/*team section start*/
+.team{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.t_h1{
+	font-size: 32px;
+}
+/*team section end*/
+/*skill section start*/
+.skill{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*skill section end*/
+/*portfolio section start*/
+.portfolio{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*portfolio section end*/
+/*about section start*/
+.about{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.single_t{
+	margin-bottom: 60px;
+	
+}
+.t_text{
+	margin-left:30px ;
+}
+/*about section end*/
+/*contact section start*/
+.contact{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*contact section end*/
+/*footer start*/
+.footer-item ul li{
+	
+	font-size: 13px;
+	
+/*footer end*/
+  }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+ }
